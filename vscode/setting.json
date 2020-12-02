@@ -1,0 +1,110 @@
+{
+	  // base
+	    "window.zoomLevel": 1,
+	      "debug.console.fontSize": 15,
+	        "zenMode.restore": true,
+		  "zenMode.fullScreen": true,
+		    "zenMode.centerLayout": true,
+		      "zenMode.hideLineNumbers": false,
+		        "breadcrumbs.symbolPath": "off",
+			  "breadcrumbs.enabled": true,
+			    "files.exclude": {
+				        "**/node_modules": true
+					  },
+					    "files.watcherExclude": {
+						        "**/vendor/**": true
+							  },
+							    "search.showLineNumbers": true,
+							      "html.format.extraLiners": "head, body, /html",
+							        "html.format.wrapAttributes": "preserve-aligned",
+								  "screencastMode.keyboardOverlayTimeout": 600,
+								    "screencastMode.verticalOffset": 10,
+								      "screencastMode.fontSize": 55,
+								        "git.ignoreLegacyWarning": true,
+									  "explorer.confirmDelete": false,
+									    "explorer.confirmDragAndDrop": false,
+
+									      // editor
+									        "editor.quickSuggestions": {
+											    "strings": true
+											      },
+											        "editor.fontSize": 16,
+												  "editor.fontLigatures": true,
+												    "editor.minimap.enabled": false,
+												      "editor.formatOnSave": true,
+												        "editor.fontFamily": "Fira Code",
+													  "editor.largeFileOptimizations": false,
+													    "editor.renderLineHighlight": "all",
+													      "editor.fontWeight": "normal",
+													        "editor.cursorSmoothCaretAnimation": true,
+														  "editor.cursorBlinking": "solid",
+
+														    // workbench
+														      "workbench.iconTheme": "material-icon-theme",
+														        "workbench.editor.limit.enabled": true,
+															  "workbench.editor.showTabs": false,
+															    "workbench.activityBar.visible": true,
+															      "workbench.statusBar.visible": true,
+															        "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+
+																  // terminal
+																    "terminal.integrated.fontSize": 14,
+																      "terminal.integrated.lineHeight": 1.5,
+																        "terminal.integrated.shell.osx": "/bin/zsh",
+																	  "terminal.integrated.fontWeightBold": "normal",
+																	    "terminal.integrated.fontFamily": "'JetBrains Mono','Fira Code',Menlo,Monaco, 'Courier New', monospace",
+
+																	      // eslint
+																	        "eslint.validate": ["javascript", "javascriptreact", "vue"],
+
+																		  // prettier
+																		    "prettier.printWidth": 1000,
+																		      "prettier.trailingComma": "none",
+																		        "prettier.vueIndentScriptAndStyle": true,
+
+																			  // format
+																			    "[scss]": {
+																				        "editor.suggest.insertMode": "replace",
+																					    "editor.defaultFormatter": "esbenp.prettier-vscode"
+																					      },
+																					        "[html]": {
+																							    "editor.defaultFormatter": "esbenp.prettier-vscode"
+																							      },
+																							        "[blade]": {
+																									    "editor.defaultFormatter": "onecentlin.laravel-blade"
+																									      },
+																									        "[json]": {
+																											    "editor.defaultFormatter": "esbenp.prettier-vscode"
+																											      },
+																											        "[jsonc]": {
+																													    "editor.defaultFormatter": "esbenp.prettier-vscode"
+																													      },
+																													        "[javascript]": {
+																															    "editor.defaultFormatter": "esbenp.prettier-vscode"
+																															      },
+																															        "[typescript]": {
+																																	    "editor.defaultFormatter": "esbenp.prettier-vscode"
+																																	      },
+																																	        "[vue]": {
+																																			    "editor.defaultFormatter": "octref.vetur"
+																																			      },
+																																			        "vetur.format.defaultFormatterOptions": {
+																																					    // "js-beautify-html": {
+																																						        //   "wrap_attributes": "force-expand-multiline"
+																																							    // },
+																																							        "prettyhtml": {
+																																									      "printWidth": 100,
+																																									            "singleQuote": false,
+																																										          "wrapAttributes": false,
+																																											        "sortAttributes": false
+																																												    },
+																																												        "prettier": {
+																																														      "trailingComma": "none"
+																																														          }
+																																															    },
+
+																																															      // fileheader
+																																															        "fileheader.configObj": {
+																																																	    "autoAdd": false
+																																																	      }
+}
